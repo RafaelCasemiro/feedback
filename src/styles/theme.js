@@ -5,6 +5,6 @@ export const theme = {
     textColor: "#969FAD",
     submitButtomColor: "#FC7614",
     white: "#fff",
-    feedbackButtomColor: "#262E38",
-    feedbackButtomText: "#7C8798"
+    feedbackButtonColor: "#262E38",
+    feedbackButtonText: "#7C8798",
 }
