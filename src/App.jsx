@@ -2,7 +2,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import { ThemeProvider } from "styled-components"
 
 import { Home } from "./pages/Home"
-import { GlobalStyle } from "./styles/global.js"
+import { GlobalStyle } from "./styles/global.styles.js"
 import { theme } from "./styles/theme.js"
 
 const router = createBrowserRouter([
@@ -18,6 +18,6 @@ export  function App() {
     <ThemeProvider theme={theme}>
       <RouterProvider router={router} />
       <GlobalStyle/>
-      </ThemeProvider>
+    </ThemeProvider>
   )
 }

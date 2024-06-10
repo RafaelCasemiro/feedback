@@ -8,7 +8,7 @@ export function Home() {
   return (
     <CardContainer>
       <iconContainer>
-        <img src={iconStarImg} alt="" />
+        <img src={iconStarImg} alt="estrela" />
       </iconContainer>
 
       <h1>Como foi o atendimento?</h1>
